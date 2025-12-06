@@ -46,7 +46,7 @@ const HeroSection: React.FC = () => {
             Speak to Sales
           </CTAButtonSecondary>
         </CTAButtonGroup>
-        <Highlight>Trusted by retail merchants processing high-volume in-store transactions and POS payments.</Highlight>
+        <Highlight>We serve only retail clients.</Highlight>
       </HeroContent>
     </HeroContainer>
   );

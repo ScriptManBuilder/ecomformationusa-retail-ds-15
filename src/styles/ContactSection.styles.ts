@@ -258,6 +258,13 @@ export const InfoDescription = styled.p`
   line-height: 1.6;
   font-size: 0.95rem;
 
+  span {
+    font-size: 0.725rem;
+    word-break: break-all;
+    display: inline-block;
+    max-width: 100%;
+  }
+
   @media (max-width: 425px) {
     font-size: 0.9rem;
   }
