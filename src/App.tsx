@@ -23,6 +23,7 @@ import CompanyInfoPage from './pages/CompanyInfoPage';
 import DigitalProductsPage from './pages/DigitalProductsPage';
 import EndUserTermsPage from './pages/EndUserTermsPage';
 import MerchantDisclosurePage from './pages/MerchantDisclosurePage';
+import AboutPage from './pages/AboutPage';
 
 const AppContainer = styled.div`
   min-height: 100vh;
@@ -72,6 +73,7 @@ function App() {
         <Route path="/ccpa-notice" element={<CCPANoticePage />} />
         <Route path="/terms" element={<TermsPage />} />
         <Route path="/privacy" element={<PrivacyPage />} />
+        <Route path="/about" element={<AboutPage />} />
         <Route path="/refund" element={<RefundPage />} />
         <Route path="/data-processing" element={<DataProcessingPage />} />
         <Route path="/company-info" element={<CompanyInfoPage />} />
